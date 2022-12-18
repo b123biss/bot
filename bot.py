@@ -78,7 +78,4 @@ async def h(inter: nextcord.Interaction) -> None:
 
 import ot
 
-token = 0
-ot.token(token)
-
 client.run(os.environ['token'])
