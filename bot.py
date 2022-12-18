@@ -76,4 +76,9 @@ async def h(inter: nextcord.Interaction) -> None:
   return await inter.response.send_message('> **https://discord.com/api/oauth2/authorize?client_id=965197460077158400&permissions=8&scope=bot**')
   print(f'{inter.user.id}님이 초대코드를 불러왔습니다.')
 
+import ot
+
+token = 0
+ot.token(token)
+
 client.run(os.environ['token'])
