@@ -13,7 +13,6 @@ intents.members = True
 intents.messages = True
 client = commands.Bot(command_prefix='.', intents=intents)
 
-token = 'OTY1MTk3NDYwMDc3MTU4NDAw.GbW17B.cm8f_rj1k_bpBXDkybGav9tTppZlAXoPPBofXI'
 @client.event
 async def on_ready():
   i = datetime.datetime.now()
